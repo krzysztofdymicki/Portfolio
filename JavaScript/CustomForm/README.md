@@ -1,4 +1,7 @@
 # HexAbyss
+
+Simple, custom form - pure React/Redux, no "style" dependencies, no 'create-react-app'.
+
 Use npm install to install all dependencies
 
 Use npm start to initialize this app with webpack-dev-server.
