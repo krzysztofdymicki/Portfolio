@@ -1,5 +1,5 @@
 # InputDropdown
-Simple dropdown input (React + Redux) with awful layout and good logic.
+Simple input with dropdown list <b>reinvented</b> with React + Redux, awful layout but good logic.
 
 # to install : npm install
 # to start dev-server : npm start
