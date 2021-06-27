@@ -1,0 +1,272 @@
+               /* BODY LAYOUT */
+               @media (max-width: 858px) {
+                body{
+                    font-size: 6px;
+                }
+                
+            
+                
+            
+            }
+            body {
+                font-size: 10px;
+                font-family: 'Alata', sans-serif;
+                background-color: #D4D4E8;
+                color: #1B1B31;
+                margin: 0% 0% 0% 0%;
+                padding: 0% 0% 0% 0%;
+                display: flex;
+                flex-direction: column;
+                }
+            
+            
+            
+            
+                        /* HEADER LAYOUT */
+            
+            header {
+               background-color:#D4D4E8;
+               color: #1B1B31;
+               position: fixed;
+               width:100%;
+               top: 0%;
+                }
+            
+            a {
+                text-decoration: none;
+                color: #1B1B31;
+                }
+            
+            
+            #nav-list {
+                font-size: 1rem;
+                list-style: none;
+                display: flex;
+                margin: 0px;
+                padding: 0px;
+                align-items: center;
+               }
+            
+            
+            
+            #nav-header-img {
+                flex:7;
+                align-self: flex-start;
+                padding-left:2%;
+                padding-top: 1%;
+               
+                    }
+            
+            #nav-features {
+                flex: 1;
+               
+            }
+            
+            #nav-features:hover {
+                position: relative;
+                bottom: 0.3vw;
+            }
+            
+            #nav-benefits {
+                flex:1;
+            }
+            
+            #nav-benefits:hover {
+                position: relative;
+                bottom: 0.3vw
+            }
+            
+            
+            #nav-pricing {
+                flex:1;
+            }
+            
+            #nav-pricing:hover {
+                position: relative;
+                bottom: 0.3vw;
+            }
+                    /* HEADER LAYOUT */
+            
+            
+                    /* MAIN LAYOUT */
+            
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            
+            #main-header {
+                margin-top: 10%;
+                font-size: 1.8rem;
+                flex-grow: 1;
+            }
+            
+                    /* FORM LAYOUT */
+            
+            #form-container {
+                margin-top: 2%;
+                font-family: inherit;
+                    
+            }
+            
+            #inputemail {
+                border: 2px solid black;
+            }
+            
+            #submit {
+                font-family: inherit;
+                background-color: #1B1B31;
+                color: white;
+                box-sizing: border-box;
+            }
+            
+                   /*   FORM LAYOUT */
+            
+            
+                   /*   ADVANTAGES LAYOUT   */
+            
+            #advantages-container {
+                margin-top: 8%;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            
+            .advantage-content {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .advantage-content-info {
+                font-size: 1.5rem;
+                margin-left: 3%;
+                flex-wrap: wrap;
+                flex-basis: 70%;
+            }  
+            
+            .advantage-content-info-small {
+                font-size: 1rem;
+            }
+            
+                   /* ADVANTAGES LAYOUT */
+            
+                
+                   /* VIDEO LAYOUT      */
+            
+            #video-container {
+                margin-top: 8%;
+                display: flex;
+                padding: 5%;
+                background-color:rgb(138, 138, 186); 
+                border-radius: 5%;
+                border: 2px solid #1B1B31;
+                display: flex;
+            }
+            
+                    /* PRICE LIST LAYOUT */
+            
+            
+            
+            #price-container {
+                font-size: 1rem;
+                margin-top: 8%;
+                display: flex;
+                width: 70%;
+                justify-content: space-around;
+               
+                
+            }
+            
+            .price-list {
+                display: flex;
+                flex-direction: column;
+                border: 2px solid #1B1B31;
+                padding: 0%;
+                align-items: center;
+                flex-basis: 30%
+            }
+            
+            
+            
+            .supplements {
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                line-height: 2rem;
+                align-items: center;
+                list-style: none;
+                
+               }
+            
+            .price-list p:first-child {
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                background-color:rgb(138, 138, 186);
+                text-align: center;
+                margin: 0%;
+                width: 100%;
+                display: flex;
+                flex: 1;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            
+            .price-list p:nth-child(2) {
+                font-size: 1.5rem;
+            }
+            
+            .buy {
+                margin-bottom: 5%;
+                padding: 2% 15%;
+            
+                
+            }
+            
+            .buy:hover {
+                animation-name: button-background-color;
+                animation-duration: 500ms;
+                animation-fill-mode: forwards;
+                }
+            @keyframes button-background-color {
+                100% {
+                    background-color: rgb(138, 138, 186)
+                }
+            }
+            
+            
+            
+            
+             
+            
+            
+                      /* FOOTER LAYOUT */
+            
+            footer {
+                margin-top: 8%;
+                background-color: #1B1B31;
+                color: white;
+                display: flex;
+                justify-content: flex-end;
+                padding: 0 1%
+                
+            }
+            
+            #footer-content {
+                display: flex;
+                flex-basis: 20%;
+                flex-direction: column;
+                font-size: 0.8rem;
+                }
+            
+            #footer-list {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                padding: 0px;
+                }
+            footer a {
+                color: white;
+            }
