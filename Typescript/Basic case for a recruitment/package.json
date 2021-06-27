@@ -1,0 +1,25 @@
+{
+  "name": "eye.press",
+  "version": "1.0.0",
+  "description": "OKO.press asignments",
+  "main": "ex4/ex4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex4/ex4.js",
+    "ex4-dev": "nodemon ex4/ex4.js",
+    "testing": "nodemon testing.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofdymicki/EYE.press.git"
+  },
+  "author": "Krzysztof Dymicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzysztofdymicki/EYE.press/issues"
+  },
+  "homepage": "https://github.com/krzysztofdymicki/EYE.press#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
