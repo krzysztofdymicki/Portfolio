@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Text Editor</title>
+  <meta name="description" content="App for ArdentCode">
+  <meta name="author" content="Krzysztof Dymicki">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="top">
+      <picture>
+        <source media="(min-width: 768px)" srcset="utils/dark_logo_transparent_full.svg">
+        <img src="utils/dark_logo_transparent_mini.svg" id="logo">
+      </picture>
+      <div id="top-buttons-container">
+        <button type="button" class="top-button" id="new-button">NEW</button>
+        <form id="upload-form", enctype="multipart/form-data" method="post">
+          <input type="file" name="file" id="file" accept=".json, .txt">
+          <button type="submit" class="top-button" id="upload-button">UPLOAD</button>
+        </form>
+        <button type="button" class="top-button" id="save-button">SAVE</button>
+        <div id="data-tools-container">
+          <label class="radiobutton-container">
+            JSON <input type="radio" name="data-type", value="JSON" checked>
+          </label>
+          <label class="radiobutton-container">
+            TXT <input type="radio" name="data-type" valie="TXT">
+          </label>
+        </div>
+      </div>
+    </div>
+    <div id="main-container">
+      <div id="tools-container">
+        <div id="tools-list">
+          <div id="text-tools">
+            <button id="bold" class="text-tool" data-functionality="bold"></button>
+            <button id="italic" class="text-tool" data-functionality="italic"></button>
+            <button id="underline" class="text-tool" data-functionality="underline"></button>
+          </div>
+        </div>
+      </div>
+      <p contenteditable id="result"></p>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>

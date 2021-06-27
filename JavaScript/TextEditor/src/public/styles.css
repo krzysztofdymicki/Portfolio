@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+body {
+    background: #EAEFF1;
+}
+
+#top {
+    width: 100%
+}
+
+picture {
+    display: block;
+    width: 100%;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 8em
+}
+
+#top-buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.top-button {
+    font-size: 1em;
+    margin-right: 1em;
+    padding: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+
+#new-button {
+    background: #74797a;
+}
+
+#new-button:hover {
+    background: #404344
+}
+
+#upload-form {
+    display: grid
+}
+
+#upload-button {
+    background: #1ea1f3;
+    margin-top: 5px;
+}
+
+#upload-button:hover {
+    background: #126091
+}
+
+#save-button {
+    background: #46af70;
+}
+
+#save-button:hover {
+    background: #286440
+}
+
+#data-tools-container {
+    display: grid;
+    align-items: center;
+}
+
+
+#main-container {
+    height: 90%;
+    background: white;
+    margin: 0 1em;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
+#tools-container {
+    width: 100%;
+    height: 80px;
+}
+
+#tools-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#text-tools {
+    display: flex;
+    padding: 1em;
+}
+
+.text-tool {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.text-tool:hover {
+    width: 60px;
+    height: 60px;
+    margin-right: 0px;
+}
+
+#bold {
+    background-image: url(utils/icons/bold.svg);
+}
+
+#italic {
+    background-image: url(utils/icons/italic.svg);
+}
+
+#underline {
+    background-image: url(utils/icons/underline.svg);
+}
+
+#result {
+    height: 80%;
+    overflow: auto;
+    padding: 0.5em 1em;
+}
+
+@media (min-width: 768px) {
+
+    .top-button {
+        padding: 1.5em;
+    }
+
+    #main-container {
+        margin: 0 3em
+    }
+
+    #logo {
+        width: 15em
+    }
+
+    .text-tool {
+        height: 40px;
+        width: 40px
+    }
+
+    .text-tool:hover {
+        width: 50px;
+        height: 50px;
+        margin-right: 0px
+    }
+
+    #result {
+        padding: 2em 2em;
+        height: 70%
+    }
+}
+
+@media (min-width: 1024px) {
+    #main-container {
+        margin: 0 6em;
+    }
+}
