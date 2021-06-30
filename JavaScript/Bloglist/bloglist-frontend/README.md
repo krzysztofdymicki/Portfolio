@@ -2,11 +2,13 @@
 
 <b>npm start</b> to start dev-server
 
-Stack
+<b>Stack</b>
 
+<ul>
 <li>React</li>
 <li>Axios</li>
+</ul>
 
-Testing
+<b>Testing</b>
 
 <li>Cypress</li>
