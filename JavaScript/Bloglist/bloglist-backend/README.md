@@ -3,8 +3,10 @@
 npm install to install
 npm run dev to start developer server
 
-Stack:
+<h3>Stack</h3>
 
-<b>mongoose</b>
-<b>express</b>
-<b>jwt</b>
+<ul>
+  <li>Express</li>
+  <li>Mongoose</li>
+  <li>JWT</li>
+</ul>
