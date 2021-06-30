@@ -1,7 +1,7 @@
 # Bloglist backend
 
-npm install to install
-npm run dev to start developer server
+<li>npm install to install</li>
+<li>npm run dev to start developer server</li>
 
 <h3>Stack</h3>
 
