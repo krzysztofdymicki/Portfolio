@@ -2,6 +2,14 @@
 
 <b>npm start</b> to start dev-server
 
+<b>To create user</b> sent request as follows
+
+POST http://localhost:3013/api/users Content-Type: application/json
+
+{
+"username": ...new username, "name": ...new name, "password": ...new password
+}
+
 <b>Stack</b>
 
 <ul>
