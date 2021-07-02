@@ -4,7 +4,7 @@
 
 <b>To create user</b> sent request as follows
 
-POST http://localhost:3013/api/users Content-Type: application/json
+POST http://localhost:3001/api/users Content-Type: application/json
 
 {
 "username": ...new username, "name": ...new name, "password": ...new password
